@@ -21,7 +21,7 @@
 {
 }
 
-@property (weak)   id<HorizontalTableViewDataSource>    dataSource;
+@property (nonatomic, weak)   id<HorizontalTableViewDataSource>    dataSource;
 @property (assign) CGFloat                              cellWidth;
 
 - (UIView*)dequeueCell;
